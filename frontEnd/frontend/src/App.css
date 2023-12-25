@@ -1,0 +1,82 @@
+/* styles.css or App.css */
+
+body {
+    margin: 0; /* Remove body margin */
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align vertically in the middle */
+    padding: 1rem;
+    background: linear-gradient(to right, #000000, #535353); /* Gradient Background */
+    color: #fff; /* Light Text Color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle Box Shadow */
+  }
+  
+  /* Logo Styles */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 170px;
+    height: 60px;
+    margin-right: 1rem;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Light Text Color for Links */
+    transition: color 0.3s ease; /* Smooth Transition for Link Color */
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000; /* Link Hover Color */
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push the search bar to the right */
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid #fff; /* Adjust the border color as needed */
+    border-radius: 5px;
+    background-color: transparent; /* Adjust as needed */
+    color: #fff; /* Text color */
+    outline: none; /* Remove outline on focus */
+    font-size: 1rem; /* Adjust font size */
+    height: 2rem; /* Adjust height */
+    width: 150px; /* Adjust width */
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem; /* Increase padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* Button background color */
+    color: #000; /* Button text color */
+    cursor: pointer;
+    font-size: 1rem; /* Adjust font size */
+  }
+  
+  /* Add more styles as needed based on your design preferences */
+  
