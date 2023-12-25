@@ -1,4 +1,3 @@
-/* styles.css or App.css */
 
 body {
     margin: 0; /* Remove body margin */
@@ -52,7 +51,6 @@ body {
   .search-bar {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Push the search bar to the right */
   }
   
   .search-input {
