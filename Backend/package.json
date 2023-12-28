@@ -11,8 +11,14 @@
     "nodemon": "^3.0.2",
     "uuid": "^9.0.1"
   },
+  "scripts": {
+    "start": "nodemon index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.10.5"
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
   }
 }
